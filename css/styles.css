@@ -1007,6 +1007,11 @@ button {
   padding-left: 16px;
 }
 
+.footer-btn-logo {
+  fill: #fff;
+  margin-left: 16px;
+}
+
 .footer-btn {
   display: flex;
   align-items: center;
@@ -1032,11 +1037,6 @@ button {
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: #404bbf;
-}
-
-.footer-btn-logo {
-  fill: #fff;
-  margin-left: 16px;
 }
 
 /*----------- modal----------- */
@@ -1296,6 +1296,7 @@ button {
 }
 
 .checkbox-text-item {
+  text-decoration-line: underline;
   color: #4d5ae5;
 }
 
