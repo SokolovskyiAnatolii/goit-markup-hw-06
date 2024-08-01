@@ -1092,13 +1092,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
+  background-color: rgba(231, 233, 252, 1);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #e7e9fc;
+  fill: rgba(231, 233, 252, 1);
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   width: 24px;
@@ -1118,13 +1118,13 @@ button {
 .modal-btn:hover .modal-btn-logo {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
+  fill: rgba(255, 255, 255, 1);
 }
 
 .modal-btn:focus .modal-btn-logo {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
+  fill: rgba(255, 255, 255, 1);
 }
 
 .modal-btn-logo {
@@ -1376,13 +1376,13 @@ button {
 
 .mobile-btn {
   display: block;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255, 1);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #e7e9fc;
+  fill: rgba(231, 233, 252, 1);
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   width: 24px;
